@@ -4,5 +4,5 @@ WHERE cohort_id IN (1,2,3);
 
 
 -- My Version:
--- SELECT COUNT(*) FROM students
--- WHERE cohort_id < 4;
+SELECT COUNT(*) FROM students
+WHERE cohort_id < 4;
